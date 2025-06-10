@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #575757;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,8 +122,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		color: #292929;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #5c5c5c;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #666666;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1801,7 +1801,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: #696969;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1855,7 +1855,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #787878;
+			color: #575757;
 			background: #fff;
 		}
 
@@ -2055,7 +2055,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2388,7 +2388,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #787878;
+			color: #575757;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2446,7 +2446,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #575757 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2632,7 +2632,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.803);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2683,13 +2683,13 @@ input, select, textarea {
 
 	#main {
 		margin-left: 35%;
-		max-width: 54em;
+		max-width: 150em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #946b60;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
