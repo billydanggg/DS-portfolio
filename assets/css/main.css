@@ -3219,3 +3219,34 @@ input, select, textarea {
 			}
 
 	}
+
+/* Misc Added later*/
+.tool-skills {
+  display: flex;
+  gap: 1px;
+  margin-top: 1px;
+}
+
+.tool-skill {
+  display: flex;
+  flex-direction: column;      /* Stack vertically */
+  align-items: center;         /* Center both image and text */
+  justify-content: flex-start; /* Optional: align to the top */
+  min-width: 110px;            /* Optional: keeps captions under icons neatly */
+}
+
+.tool-skill img {
+  width: 80px;
+  height: 80px;                /* Forces all images to be the same height */
+  object-fit: contain;         /* Maintains aspect ratio */
+  margin-bottom: -1px;
+}
+
+.skill-caption {
+  font-size: 18px;
+  margin-top: 0;
+  text-align: center;
+}
+
+
+		
