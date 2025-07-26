@@ -92,10 +92,13 @@
 				});
 
 			}
-
+			/* Commented out following section to adjust project section logic (no longer zooms in image pop up, just goes straight to link if existing, unadjusted
+			projects depracated as it just pops up image) */
+			
 	// Main Sections: Two.
 
 		// Lightbox gallery.
+			/*
 			$window.on('load', function() {
 
 				$('#two').poptrox({
@@ -113,5 +116,5 @@
 				});
 
 			});
-
+				*/
 })(jQuery);
